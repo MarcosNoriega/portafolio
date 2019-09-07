@@ -1,0 +1,59 @@
+[
+    {
+        "imagen": "assets/img/html.png", 
+        "nombre": "Html"
+    },
+    {
+        "imagen": "assets/img/css.png", 
+        "nombre": "Css"
+    },
+    {
+        "imagen": "assets/img/javaScript.png", 
+        "nombre": "JavaScript"
+    },
+    {
+        "imagen": "assets/img/jquery.png", 
+        "nombre": "Jquery"
+    },
+    {
+        "imagen": "assets/img/bootstrap.png", 
+        "nombre": "Bootstrap"
+    },
+    {
+        "imagen": "assets/img/git.png", 
+        "nombre": "Git"
+    },
+    {
+        "imagen": "assets/img/nodejs.png", 
+        "nombre": "Node JS"
+    },
+    {
+        "imagen": "assets/img/php.png", 
+        "nombre": "Php"
+    },
+    {
+        "imagen": "assets/img/java.png", 
+        "nombre": "Java"
+    },
+    {
+        "imagen": "assets/img/Laravel.png", 
+        "nombre": "Laravel"
+    },
+    {
+        "imagen": "assets/img/mysql.png", 
+        "nombre": "MySQL"
+    },
+    {
+        "imagen": "assets/img/mongoDB.png", 
+        "nombre": "MongoDB"
+    },
+    {
+        "imagen": "assets/img/angular.png",
+        "nombre": "Angular"
+    },
+    {
+        "imagen": "assets/img/ionic.png",
+        "nombre": "Ionic"
+    }
+
+]

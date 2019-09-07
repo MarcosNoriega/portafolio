@@ -1,0 +1,36 @@
+<div class="container">
+  <section>
+      <h3 class="title text-center">Sobre mi</h3>
+      <p class="text text-center">Soy un desarrollador de <strong>aplicaciones web</strong> y <strong>programas de escritorios</strong>. Me gusta estudiar de forma autodidacta ya que puedo ir a mi ritmo. Y ademas por que pienzo que hoy en día esta habilidad es impresindible para un programador, debido a las actualizaciones constantes de la tecnología.</p>
+      <p class="text text-center">Me fascina mucho el mundo de la programación. Me gusta aprender cosas nueva y compartir mis concimientos.</p>
+  </section>
+
+  <section>
+    <h3 class="title text-center">Projectos</h3>
+            <!-- <p class="text">Proyectos personales. Todos alojados en GitHub.</p> -->
+            <div class="row mt-3" style="color: black">
+              <div class="card-columns">
+                <div class="card wow flipInY hvr-grow mt-3" *ngFor="let proyecto of proyectos">
+                  <a class="fancybox" rel="group" [href]="proyecto.imagen"><img [src]="proyecto.imagen" class="card-img-top" alt=""></a>
+                  <div class="card-body">
+                    <h3 class="title">{{proyecto.titulo}}</h3>
+                    <p class="text">{{proyecto.descripcion}}</p>
+                    <ul>
+                      <li *ngFor="let tecnologia of proyecto.tecnologias">{{tecnologia}}</li>
+                    </ul>
+                  </div>
+                  <a *ngFor="let imagen of proyecto.imagenes" class="fancybox" rel="proyecto.fancybox" [href]="imagen"></a>
+                  <div class="card-header" *ngIf="proyecto.github != ''">
+                    <div class="row justify-content-center">
+                      <div class="col-4">
+                        <a [href]="proyecto.github" target="_blank"><span class="badge badge-dark mx-auto">Ir a Github</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+              
+  </section>
+</div>

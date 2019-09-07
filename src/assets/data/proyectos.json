@@ -1,0 +1,103 @@
+[
+    {
+        "imagen": "assets/img/galeria.jpg",
+        "titulo": "Galeria de Imagenes",
+        "descripcion": "Este es un preyecto personal hecho que las siguentes tecnologias:",
+        "tecnologias": [
+            "BackEnd: PHP con Laravel y mysql.",
+            "FrontEnd: HTML, CSS, JavaScript, Bootstrap, Jquery y Ajax."
+        ],
+        "imagenes": [
+            "assets/img/galeria2.jpg"
+        ],
+        "fancybox": "group",
+        "github": ""
+    },
+    {
+        "imagen": "assets/img/appFutbol-comp.jpg",
+        "titulo": "Aplicación de Futbol",
+        "descripcion": "La aplicacion consiste en consultar los distintos resultados de competencias europes, como tambien equipos. Esta aplicación esta hecho con:",
+        "tecnologias": [
+            "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
+            "Backend: Api de fútbol:"
+        ],
+        "imagenes": [
+            "assets/img/appFutbol-equipo.jpg"
+        ],
+        "fancybox": "group2",
+        "github": ""
+    },
+    {
+        "imagen": "assets/img/SpotiApp-albums.jpg",
+        "titulo": "Aplicación de Música",
+        "descripcion": "Una aplicacion simple parecida a spotify. Las tecnologias usadas en esta app son:",
+        "tecnologias": [
+            "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
+            "Backend: Api de Spotify"
+        ],
+        "imagenes": [
+            "assets/img/SpotiApp-albums2.jpg",
+            "assets/img/SpotiApp-artist.jpg",
+            "assets/img/SpotiApp-buscar.jpg",
+            "assets/img/SpotiApp-home.jpg"
+        ],
+        "fancybox": "group3",
+        "github": "https://github.com/MarcosNoriega/spotiApp"
+    },
+    {
+        "imagen": "assets/img/pymes.png",
+        "titulo": "Gestion de articulos de pymes",
+        "descripcion": "Este ejemplo esta hecho con las siguientes tecnologias:",
+        "tecnologias": [
+            "BackEnd: PHP con Laravel y mysql.",
+            "FrontEnd: HTML, CSS, JavaScript, Bootstrap, Jquery y Ajax."
+        ],
+        "imagenes": [
+        ],
+        "fancybox": "group4",
+        "github": ""
+    },
+    {
+        "imagen": "assets/img/TCL.png",
+        "titulo": "Sistema de administración para empresa de telecomunicación.",
+        "descripcion": "Proyecto de universidad (UTN). Fue realizado en colaboración con Marcos Krenz. Se trata de una aplicacion de escritorio hecho con:",
+        "tecnologias": [
+            "Visual Basic",
+            "SQL Server"
+        ],
+        "imagenes": [
+            "assets/img/TCL-login.png",
+            "assets/img/TCL-clientes.png",
+            "assets/img/TCL-clientes-edit.png"
+        ],
+        "fancybox": "group5",
+        "github": ""
+    },
+    {
+        "imagen": "assets/img/redSocial.jpg",
+        "titulo": "Red Social de Imagenes",
+        "descripcion": "Esta aplicación esta hecha con:",
+        "tecnologias": [
+            "Backend: nodejs, mongoDB, cloudinary",
+            "FrontEnd: HTML, CSS, Javascript, Bootstrap"
+        ],
+        "imagenes": [
+        ],
+        "fancybox": "group5",
+        "github": ""
+    },
+    {
+        "imagen": "assets/img/redSocial.jpg",
+        "titulo": "Aplicación de noticias",
+        "descripcion": "esta aplicion es de noticias para dispositivos moviles y tambien como un progresive web app. Esta aplicación esta hecha con las siguientes tecnologías",
+        "tecnologias": [
+            "Backend: api de noticias llamada <a href='https://newsapi.org/'>news api</a>",
+            "FrontEnd: HTML, CSS, Javascript, Bootstrap"
+        ],
+        "imagenes": [
+        ],
+        "fancybox": "group5",
+        "github": ""
+    }
+
+]
