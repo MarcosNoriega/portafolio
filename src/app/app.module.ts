@@ -10,6 +10,7 @@ import { ContenidoComponent } from './components/contenido/contenido.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { EntretenimientoComponent } from './components/entretenimiento/entretenimiento.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { EntretenimientoComponent } from './components/entretenimiento/entreteni
     ContenidoComponent,
     FooterComponent,
     HabilidadesComponent,
-    EntretenimientoComponent
+    EntretenimientoComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

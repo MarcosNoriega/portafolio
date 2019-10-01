@@ -1,17 +1,18 @@
 <div class="container">
-  <section>
+  <!--<a name="sobreMi"></a>-->
+  <section class="wow fadeInUp" id="sobreMi">
       <h3 class="title text-center">Sobre mi</h3>
       <p class="text text-center">Soy un desarrollador de <strong>aplicaciones web</strong> y <strong>programas de escritorios</strong>. Me gusta estudiar de forma autodidacta ya que puedo ir a mi ritmo. Y ademas por que pienzo que hoy en día esta habilidad es impresindible para un programador, debido a las actualizaciones constantes de la tecnología.</p>
-      <p class="text text-center">Me fascina mucho el mundo de la programación. Me gusta aprender cosas nueva y compartir mis concimientos.</p>
+      <p class="text text-center">Me fascina mucho el mundo de la programación. Me gusta aprender cosas nueva y compartir mis conocimientos.</p>
   </section>
 
   <section>
-    <h3 class="title text-center">Projectos</h3>
+    <h3 class="title text-center" id="proyectos">Projectos</h3>
             <!-- <p class="text">Proyectos personales. Todos alojados en GitHub.</p> -->
             <div class="row mt-3" style="color: black">
-              <div class="card-columns">
+              <div class="card-columns mb-4">
                 <div class="card wow flipInY hvr-grow mt-3" *ngFor="let proyecto of proyectos">
-                  <a class="fancybox" rel="group" [href]="proyecto.imagen"><img [src]="proyecto.imagen" class="card-img-top" alt=""></a>
+                  <a class="fancybox" [rel]="proyecto.fancybox" [href]="proyecto.imagen"><img [src]="proyecto.imagen" class="card-img-top" alt=""></a>
                   <div class="card-body">
                     <h3 class="title">{{proyecto.titulo}}</h3>
                     <p class="text">{{proyecto.descripcion}}</p>
@@ -19,11 +20,11 @@
                       <li *ngFor="let tecnologia of proyecto.tecnologias">{{tecnologia}}</li>
                     </ul>
                   </div>
-                  <a *ngFor="let imagen of proyecto.imagenes" class="fancybox" rel="proyecto.fancybox" [href]="imagen"></a>
-                  <div class="card-header" *ngIf="proyecto.github != ''">
+                  <a *ngFor="let imagen of proyecto.imagenes" class="fancybox" [href]="imagen" [rel]="proyecto.fancybox"></a>
+                  <div class="card-footer" *ngIf="proyecto.enlaces.length !== 0">
                     <div class="row justify-content-center">
-                      <div class="col-4">
-                        <a [href]="proyecto.github" target="_blank"><span class="badge badge-dark mx-auto">Ir a Github</span></a>
+                      <div class="col-4" *ngFor="let enlace of proyecto.enlaces">
+                        <a [href]="enlace.url" target="_blank"><span class="badge badge-dark mx-auto">Ir a {{enlace.nombre}}</span></a>
                       </div>
                     </div>
                   </div>

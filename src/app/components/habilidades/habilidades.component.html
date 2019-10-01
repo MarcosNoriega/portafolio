@@ -1,10 +1,9 @@
 <div class="container">
     <section>
-        <h3 class="title text-center">Habilidades</h3>
         <div class="row mt-5">
             <div class="col-md-4" *ngFor="let habilidad of habilidades">
                 <figure>
-                    <img [src]="habilidad.imagen" class="d-block mx-auto wow fadeInLeft" alt="" width="150px" height="150px">
+                    <img [src]="habilidad.imagen" class="d-block mx-auto wow fadeInLeft" alt="" [width]="habilidad.width" [height]="habilidad.height">
                     <figcaption class="text-center">{{habilidad.nombre}}</figcaption>  
                 </figure> 
             </div>

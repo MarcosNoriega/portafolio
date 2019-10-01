@@ -11,7 +11,9 @@
             "assets/img/galeria2.jpg"
         ],
         "fancybox": "group",
-        "github": ""
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/laravel-galeriaImagenes"}
+        ]
     },
     {
         "imagen": "assets/img/appFutbol-comp.jpg",
@@ -25,7 +27,7 @@
             "assets/img/appFutbol-equipo.jpg"
         ],
         "fancybox": "group2",
-        "github": ""
+        "enlaces": []
     },
     {
         "imagen": "assets/img/SpotiApp-albums.jpg",
@@ -42,7 +44,9 @@
             "assets/img/SpotiApp-home.jpg"
         ],
         "fancybox": "group3",
-        "github": "https://github.com/MarcosNoriega/spotiApp"
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/spotiApp"}
+        ]
     },
     {
         "imagen": "assets/img/pymes.png",
@@ -55,7 +59,9 @@
         "imagenes": [
         ],
         "fancybox": "group4",
-        "github": ""
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/laravel-pymes"}
+        ]
     },
     {
         "imagen": "assets/img/TCL.png",
@@ -71,7 +77,7 @@
             "assets/img/TCL-clientes-edit.png"
         ],
         "fancybox": "group5",
-        "github": ""
+        "enlaces": []
     },
     {
         "imagen": "assets/img/redSocial.jpg",
@@ -83,21 +89,27 @@
         ],
         "imagenes": [
         ],
-        "fancybox": "group5",
-        "github": ""
+        "fancybox": "group6",
+        "enlaces": []
     },
     {
-        "imagen": "assets/img/redSocial.jpg",
+        "imagen": "assets/img/ark4News.png",
         "titulo": "Aplicación de noticias",
         "descripcion": "esta aplicion es de noticias para dispositivos moviles y tambien como un progresive web app. Esta aplicación esta hecha con las siguientes tecnologías",
         "tecnologias": [
-            "Backend: api de noticias llamada <a href='https://newsapi.org/'>news api</a>",
+            "Backend: api de noticias llamada News Api",
             "FrontEnd: HTML, CSS, Javascript, Bootstrap"
         ],
         "imagenes": [
+            "assets/img/ark4News-categorias.png",
+            "assets/img/ark4News-favoritos.png"
         ],
-        "fancybox": "group5",
-        "github": ""
+        "fancybox": "group7",
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/ark4News"},
+            {"nombre": "al sitio", "url": "https://ark4news.web.app"},
+            {"nombre": "News Api", "url": "https://newsapi.org/"}
+        ]
     }
 
 ]

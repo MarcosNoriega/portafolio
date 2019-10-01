@@ -1,59 +1,87 @@
 [
     {
         "imagen": "assets/img/html.png", 
-        "nombre": "Html"
+        "nombre": "Html",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/css.png", 
-        "nombre": "Css"
+        "nombre": "Css",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/javaScript.png", 
-        "nombre": "JavaScript"
+        "nombre": "JavaScript",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/jquery.png", 
-        "nombre": "Jquery"
+        "nombre": "Jquery",
+        "width": 250,
+        "height": 150
     },
     {
         "imagen": "assets/img/bootstrap.png", 
-        "nombre": "Bootstrap"
+        "nombre": "Bootstrap",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/git.png", 
-        "nombre": "Git"
+        "nombre": "Git",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/nodejs.png", 
-        "nombre": "Node JS"
+        "nombre": "Node JS",
+        "width": 128,
+        "height": 128
     },
     {
         "imagen": "assets/img/php.png", 
-        "nombre": "Php"
+        "nombre": "Php",
+        "width": 200,
+        "height": 105
     },
     {
         "imagen": "assets/img/java.png", 
-        "nombre": "Java"
+        "nombre": "Java",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/Laravel.png", 
-        "nombre": "Laravel"
+        "nombre": "Laravel",
+        "width": 150,
+        "height": 120
     },
     {
         "imagen": "assets/img/mysql.png", 
-        "nombre": "MySQL"
+        "nombre": "MySQL",
+        "width": 200,
+        "height": 150
     },
     {
         "imagen": "assets/img/mongoDB.png", 
-        "nombre": "MongoDB"
+        "nombre": "MongoDB",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/angular.png",
-        "nombre": "Angular"
+        "nombre": "Angular",
+        "width": 150,
+        "height": 150
     },
     {
         "imagen": "assets/img/ionic.png",
-        "nombre": "Ionic"
+        "nombre": "Ionic",
+        "width": 150,
+        "height": 150
     }
 
 ]

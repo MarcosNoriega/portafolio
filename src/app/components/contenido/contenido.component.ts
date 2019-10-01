@@ -13,7 +13,6 @@ export class ContenidoComponent implements OnInit {
 
   constructor(private proyectoService: ProyectoService) {
     this.proyectoService.getProyectos().subscribe((res: Proyecto[]) => {
-      console.log(res);
       this.proyectos.push(...res);
     });
    }

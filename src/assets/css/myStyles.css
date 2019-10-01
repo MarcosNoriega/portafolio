@@ -13,8 +13,8 @@ body{
 }
 
 .fotoPerfil{
-    width:150px;
-    height:150px;
+    width:120px;
+    height:160px;
     border-radius: 75px;
 
 }
@@ -22,6 +22,16 @@ body{
 #separador{
     content: '';
     background-image: url('../img/prog.jpg');
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#separador2{
+    content: '';
+    background-image: url('../img/Gaming.jpg');
     background-attachment: fixed;
     height: 50vh;
     width: 100%;
@@ -66,6 +76,18 @@ body{
     font-size: 2rem;
 }
 
+.title-separador{
+    padding-top: 115px;
+    color: #C60000;
+    font-family: 'Modak', cursive;
+    text-shadow:
+  -4px -4px 0 rgb(230, 226, 8),  
+  4px -4px 0 rgb(230, 226, 8),
+  -4px 4px 0 rgb(230, 226, 8),
+  4px 4px 0 rgb(230, 226, 8);
+}
+
+
 .text{
     line-height: 1.7;
     margin-top: 1rem;
@@ -92,6 +114,7 @@ body::-webkit-scrollbar-thumb{
     background-color: #35c844;
     border-radius: 5px;
 }
+
 
 
 

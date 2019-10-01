@@ -13,7 +13,6 @@ export class HabilidadesComponent implements OnInit {
 
   constructor(private proyectoService: ProyectoService) {
     this.proyectoService.getHabilidades().subscribe((res: Habilidades[]) => {
-      console.log(res);
       this.habilidades.push(...res);
     });
    }
