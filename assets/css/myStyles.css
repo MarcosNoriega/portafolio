@@ -1,0 +1,124 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: white;
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.bg-body{
+    
+}
+
+.fotoPerfil{
+    width:120px;
+    height:160px;
+    border-radius: 75px;
+
+}
+
+#separador{
+    content: '';
+    background-image: url('../img/prog.jpg');
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#separador2{
+    content: '';
+    background-image: url('../img/Gaming.jpg');
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#particles-js{
+    content: '';
+    background-image: url('../img/city-profile.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    filter: blur(1.5px);
+    display: block;
+    transition: all 1000ms;
+}
+
+/* #particles-js:hover{
+    filter: blur(2px);
+}
+
+.header:hover .header-content{
+    filter: blur(1px);
+} */
+
+.header-content{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left:50%;
+    margin-top: 105px;
+    margin-left: -145px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    transition: all 1000ms;
+}
+
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.title-separador{
+    padding-top: 115px;
+    color: #C60000;
+    font-family: 'Modak', cursive;
+    text-shadow:
+  -4px -4px 0 rgb(230, 226, 8),  
+  4px -4px 0 rgb(230, 226, 8),
+  -4px 4px 0 rgb(230, 226, 8),
+  4px 4px 0 rgb(230, 226, 8);
+}
+
+
+.text{
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+
+section{
+    margin-top: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #35c844;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
