@@ -316,7 +316,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer id=\"contacto\">\n    <h1 class=\"title text-center\">Contacto</h1>\n    <p class=\"text-center mt-3\"><i class=\"fas fa-mail-bulk\"></i> marcosnoriega964@gmail.com</p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-github\"></i> Repositorios: <a href=\"https://github.com/MarcosNoriega?tab=repositories\">https://github.com/MarcosNoriega?tab=repositories</a></p>\n    <p class=\"text-center mt-3\">&copy; copyright 2019 por Marcos Noriega</p>\n</footer>"
+module.exports = "<footer id=\"contacto\">\n    <h1 class=\"title text-center\">Contacto</h1>\n    <p class=\"text-center mt-3\"><i class=\"fas fa-mail-bulk\"></i> marcosnoriega964@gmail.com</p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-github\"></i> GitHub: <a href=\"https://github.com/MarcosNoriega\" target=\"_blank\">https://github.com/MarcosNoriega</a></p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-linkedin\"></i> Linkedin: <a href=\"https://www.linkedin.com/in/marcos-noriega-993a4517b/\" target=\"_blank\">https://www.linkedin.com/in/marcos-noriega-993a4517b/</a></p>\n    <p class=\"text-center mt-3\">&copy; copyright 2019 por Marcos Noriega</p>\n</footer>"
 
 /***/ }),
 

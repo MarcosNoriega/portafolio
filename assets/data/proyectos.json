@@ -27,7 +27,9 @@
             "assets/img/appFutbol-equipo.jpg"
         ],
         "fancybox": "group2",
-        "enlaces": []
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/appFutbol"}
+        ]
     },
     {
         "imagen": "assets/img/SpotiApp-albums.jpg",
