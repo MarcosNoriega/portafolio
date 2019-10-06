@@ -2,7 +2,7 @@
     {
         "imagen": "assets/img/galeria.jpg",
         "titulo": "Galeria de Imagenes",
-        "descripcion": "Este es un preyecto personal hecho que las siguentes tecnologias:",
+        "descripcion": "Este es un preyecto personal en el cual el usuario podra crear varios albumes de fotos. Este proyecto esta hecho con las siguentes tecnologías:",
         "tecnologias": [
             "BackEnd: PHP con Laravel y mysql.",
             "FrontEnd: HTML, CSS, JavaScript, Bootstrap, Jquery y Ajax."
@@ -18,10 +18,10 @@
     {
         "imagen": "assets/img/appFutbol-comp.jpg",
         "titulo": "Aplicación de Futbol",
-        "descripcion": "La aplicacion consiste en consultar los distintos resultados de competencias europes, como tambien equipos. Esta aplicación esta hecho con:",
+        "descripcion": "La aplicación consiste en consultar los distintos resultados de competencias europes, como tambien equipos. Tambien es posibles consultar noticias de deportes argentinos. Esta aplicación esta hecho con:",
         "tecnologias": [
             "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
-            "Backend: Api de fútbol:"
+            "Backend: Api de fútbol"
         ],
         "imagenes": [
             "assets/img/appFutbol-equipo.jpg"
@@ -34,7 +34,7 @@
     {
         "imagen": "assets/img/SpotiApp-albums.jpg",
         "titulo": "Aplicación de Música",
-        "descripcion": "Una aplicacion simple parecida a spotify. Las tecnologias usadas en esta app son:",
+        "descripcion": "Una aplicación simple parecida a spotify. Las tecnologias usadas en esta app son:",
         "tecnologias": [
             "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
             "Backend: Api de Spotify"
@@ -53,7 +53,7 @@
     {
         "imagen": "assets/img/pymes.png",
         "titulo": "Gestion de articulos de pymes",
-        "descripcion": "Este ejemplo esta hecho con las siguientes tecnologias:",
+        "descripcion": "Este ejemplo esta hecho con las siguientes tecnologías:",
         "tecnologias": [
             "BackEnd: PHP con Laravel y mysql.",
             "FrontEnd: HTML, CSS, JavaScript, Bootstrap, Jquery y Ajax."
@@ -97,7 +97,7 @@
     {
         "imagen": "assets/img/ark4News.png",
         "titulo": "Aplicación de noticias",
-        "descripcion": "esta aplicion es de noticias para dispositivos moviles y tambien como un progresive web app. Esta aplicación esta hecha con las siguientes tecnologías",
+        "descripcion": "Esta aplicación es de noticias para dispositivos moviles y tambien como un progresive web app. La misma esta hecha con las siguientes tecnologías",
         "tecnologias": [
             "Backend: api de noticias llamada News Api",
             "FrontEnd: HTML, CSS, Javascript, Bootstrap"
