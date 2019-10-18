@@ -5,7 +5,7 @@ $(document).ready(() => {
         speed: 300
     });
 
-    particlesJS.load('particles-js', '../assets/data/particles.json', function() {
+    particlesJS.load('particles-js', 'assets/data/particles.json', function() {
         console.log('callback - particles.js config loaded');
     });
 

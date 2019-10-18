@@ -260,7 +260,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container mt-4\">\n  <p class=\"text text-center\">En mis tiempos libres me gusta aprender y desarrollar videosjuegos y queria compartiles un juego simple que hice con los assets de unity.</p>\n  <p class=\"text text-center\">Este juego fue creado como dije con Unity usando el lenguaje de programacion c#, tambien esta subido a firebase.</p>\n  <p class=\"taxt text-center\">Puedes vistarlo haciendo click <a href=\"https://flappy-web.web.app/\">aqui</a></p>\n  <div class=\"row\">\n    <div class=\"col-12\">\n      <embed src=\"https://flappy-web.web.app/\" width=\"100%\" height=\"800px\"> \n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container mt-4\">\n  <p class=\"text text-center\">En mis tiempos libres me gusta aprender y desarrollar videosjuegos y queria compartiles un juego simple que hice con los assets de unity.</p>\n  <p class=\"text text-center\">Este juego fue creado como dije con Unity usando el lenguaje de programacion c#, además esta subido a firebase.</p>\n  <p class=\"taxt text-center\">Puedes vistarlo haciendo click <a href=\"https://flappy-web.web.app/\">aqui</a></p>\n  <div class=\"row\">\n    <div class=\"col-12\">\n      <embed src=\"https://flappy-web.web.app/\" width=\"100%\" height=\"800px\"> \n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
