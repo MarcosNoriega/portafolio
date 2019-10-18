@@ -1,8 +1,8 @@
 [
     {
         "imagen": "assets/img/galeria.jpg",
-        "titulo": "Galeria de Imagenes",
-        "descripcion": "Este es un preyecto personal en el cual el usuario podra crear varios albumes de fotos. Este proyecto esta hecho con las siguentes tecnologías:",
+        "titulo": "Galeria de Imágenes",
+        "descripcion": "Este es un proyecto personal en el cual el usuario podra crear varios álbumes de fotos. Este proyecto esta hecho con las siguientes tecnologías:",
         "tecnologias": [
             "BackEnd: PHP con Laravel y mysql.",
             "FrontEnd: HTML, CSS, JavaScript, Bootstrap, Jquery y Ajax."
@@ -18,13 +18,14 @@
     {
         "imagen": "assets/img/appFutbol-comp.jpg",
         "titulo": "Aplicación de Futbol",
-        "descripcion": "La aplicación consiste en consultar los distintos resultados de competencias europes, como también equipos. También es posibles consultar noticias de deportes argentinos. Esta aplicación esta hecho con:",
+        "descripcion": "La aplicación consiste en consultar los distintos resultados de competencias europeas, como también equipos. También es posibles consultar noticias de deportes argentinos. Esta aplicación está hecho con:",
         "tecnologias": [
             "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
             "Backend: Api de fútbol"
         ],
         "imagenes": [
-            "assets/img/appFutbol-equipo.jpg"
+            "assets/img/appFutbol-equipo.jpg",
+            "assets/img/appFutbol-noticias.png"
         ],
         "fancybox": "group2",
         "enlaces": [
@@ -34,7 +35,7 @@
     {
         "imagen": "assets/img/SpotiApp-albums.jpg",
         "titulo": "Aplicación de Música",
-        "descripcion": "Una aplicación simple parecida a spotify. Las tecnologias usadas en esta app son:",
+        "descripcion": "Una aplicación simple parecida a Spotify. Las tecnologías usadas en esta app son:",
         "tecnologias": [
             "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
             "Backend: Api de Spotify"
@@ -52,8 +53,8 @@
     },
     {
         "imagen": "assets/img/pymes.png",
-        "titulo": "Gestion de articulos de pymes",
-        "descripcion": "Este ejemplo esta hecho con las siguientes tecnologías:",
+        "titulo": "Gestión de articulos de pymes",
+        "descripcion": "Este ejemplo está hecho con las siguientes tecnologías:",
         "tecnologias": [
             "BackEnd: PHP con Laravel y mysql.",
             "FrontEnd: HTML, CSS, JavaScript, Bootstrap, Jquery y Ajax."
@@ -68,7 +69,7 @@
     {
         "imagen": "assets/img/TCL.png",
         "titulo": "Sistema de administración para empresa de telecomunicación.",
-        "descripcion": "Proyecto de universidad (UTN). Fue realizado en colaboración con Marcos Krenz. Se trata de una aplicacion de escritorio hecho con:",
+        "descripcion": "Proyecto de universidad (UTN). Fue realizado en colaboración con Marcos Krenz. Se trata de una aplicación de escritorio hecho con:",
         "tecnologias": [
             "Visual Basic",
             "SQL Server"
@@ -83,8 +84,8 @@
     },
     {
         "imagen": "assets/img/redSocial.jpg",
-        "titulo": "Red Social de Imagenes",
-        "descripcion": "Esta aplicación es una red social basica que me sirvio de práctica. Se trata de ir publicando imagenes para que otros usuarios puedan comentar las mismas y también darles likes. Esta aplicación esta hecha con:",
+        "titulo": "Red Social de Imágenes",
+        "descripcion": "Esta aplicación es una red social básica que me sirvió de práctica. Se trata de ir publicando imágenes para que otros usuarios puedan comentar las mismas y también darles likes. Esta aplicación está hecha con:",
         "tecnologias": [
             "BackEnd: Nodejs, MongoDB, Cloudinary",
             "FrontEnd: HTML, CSS, Javascript, Bootstrap"
@@ -93,12 +94,14 @@
             "assets/img/red-social2.png"
         ],
         "fancybox": "group6",
-        "enlaces": []
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/nodejs-redSocial"}
+        ]
     },
     {
         "imagen": "assets/img/ark4News.png",
         "titulo": "Aplicación de noticias",
-        "descripcion": "Esta aplicación es de noticias para dispositivos moviles y también como un progresive web app. La misma esta hecha con las siguientes tecnologías",
+        "descripcion": "Esta aplicación es de noticias para dispositivos móviles y también como un progresiva web app. La misma está hecha con las siguientes tecnologías",
         "tecnologias": [
             "BackEnd: api de noticias llamada News Api",
             "FrontEnd: HTML, CSS, Javascript, Bootstrap"
@@ -132,8 +135,8 @@
     },
     {
         "imagen": "assets/img/motor-busqueda.png",
-        "titulo": "Motor de Busqueda (modelo vectorial)",
-        "descripcion": "Este es un motor de busqueda siguiendo el reglamento del modelo de espacio vectorial las consultas son representadas también mediante un vector de las mismas características que las de los documentos. la cantidad de documentos son 598 la cual cada uno tiene mas de 5000 caracteres. Cuando se hace la consulta esta debera posicionar los mejores documento que cumplan con dicha consulta.",
+        "titulo": "Motor de Búsqueda (modelo vectorial)",
+        "descripcion": "Este es un motor de búsqueda siguiendo el reglamento del modelo de espacio vectorial las consultas son representadas también mediante un vector de las mismas características que las de los documentos. la cantidad de documentos son 598 la cual cada uno tiene más de 5000 caracteres. Cuando se hace la consulta esta deberá posicionar los mejores documento que cumplan con dicha consulta.",
         "tecnologias": [
             "BackEnd: Java, Jsp, servlets",
             "FrontEnd: HTML, CSS, Bootstrap Javascript y JQuery"
