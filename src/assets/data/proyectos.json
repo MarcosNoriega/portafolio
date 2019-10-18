@@ -18,7 +18,7 @@
     {
         "imagen": "assets/img/appFutbol-comp.jpg",
         "titulo": "Aplicación de Futbol",
-        "descripcion": "La aplicación consiste en consultar los distintos resultados de competencias europes, como tambien equipos. Tambien es posibles consultar noticias de deportes argentinos. Esta aplicación esta hecho con:",
+        "descripcion": "La aplicación consiste en consultar los distintos resultados de competencias europes, como también equipos. También es posibles consultar noticias de deportes argentinos. Esta aplicación esta hecho con:",
         "tecnologias": [
             "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
             "Backend: Api de fútbol"
@@ -84,12 +84,13 @@
     {
         "imagen": "assets/img/redSocial.jpg",
         "titulo": "Red Social de Imagenes",
-        "descripcion": "Esta aplicación esta hecha con:",
+        "descripcion": "Esta aplicación es una red social basica que me sirvio de práctica. Se trata de ir publicando imagenes para que otros usuarios puedan comentar las mismas y también darles likes. Esta aplicación esta hecha con:",
         "tecnologias": [
-            "Backend: nodejs, mongoDB, cloudinary",
+            "BackEnd: Nodejs, MongoDB, Cloudinary",
             "FrontEnd: HTML, CSS, Javascript, Bootstrap"
         ],
         "imagenes": [
+            "assets/img/red-social2.png"
         ],
         "fancybox": "group6",
         "enlaces": []
@@ -97,9 +98,9 @@
     {
         "imagen": "assets/img/ark4News.png",
         "titulo": "Aplicación de noticias",
-        "descripcion": "Esta aplicación es de noticias para dispositivos moviles y tambien como un progresive web app. La misma esta hecha con las siguientes tecnologías",
+        "descripcion": "Esta aplicación es de noticias para dispositivos moviles y también como un progresive web app. La misma esta hecha con las siguientes tecnologías",
         "tecnologias": [
-            "Backend: api de noticias llamada News Api",
+            "BackEnd: api de noticias llamada News Api",
             "FrontEnd: HTML, CSS, Javascript, Bootstrap"
         ],
         "imagenes": [
@@ -111,6 +112,38 @@
             {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/ark4News"},
             {"nombre": "al sitio", "url": "https://ark4news.web.app"},
             {"nombre": "News Api", "url": "https://newsapi.org/"}
+        ]
+    },
+    {
+        "imagen": "assets/img/chat.png",
+        "titulo": "Chat Grupal Nodejs",
+        "descripcion": "Esta app es un chat grupal donde cualquier persona puede unirse y comenzar a chatear con las personas que se encuentra conectadas.",
+        "tecnologias": [
+            "BackEnd: Nodejs, MongoDB, SocketIo",
+            "FrontEnd: HTML, CSS, Bootstrap, Javascript y JQuery"
+        ],
+        "imagenes": [
+            "assets/img/chat-inicio.png"
+        ],
+        "fancybox":"group8",
+        "enlaces": [
+            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/chat-nodejs-socket"}
+        ]
+    },
+    {
+        "imagen": "assets/img/motor-busqueda.png",
+        "titulo": "Motor de Busqueda (modelo vectorial)",
+        "descripcion": "Este es un motor de busqueda siguiendo el reglamento del modelo de espacio vectorial las consultas son representadas también mediante un vector de las mismas características que las de los documentos. la cantidad de documentos son 598 la cual cada uno tiene mas de 5000 caracteres. Cuando se hace la consulta esta debera posicionar los mejores documento que cumplan con dicha consulta.",
+        "tecnologias": [
+            "BackEnd: Java, Jsp, servlets",
+            "FrontEnd: HTML, CSS, Bootstrap Javascript y JQuery"
+        ],
+        "imagenes": [
+            "assets/img/motor-busqueda2.png",
+            "assets/img/motor-busqueda3.png"
+        ],
+        "fancybox": "group9",
+        "enlaces": [
         ]
     }
 
