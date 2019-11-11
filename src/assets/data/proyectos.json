@@ -12,7 +12,7 @@
         ],
         "fancybox": "group",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/laravel-galeriaImagenes"}
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/laravel-galeriaImagenes"}
         ]
     },
     {
@@ -29,7 +29,7 @@
         ],
         "fancybox": "group2",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/appFutbol"}
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/appFutbol"}
         ]
     },
     {
@@ -48,7 +48,7 @@
         ],
         "fancybox": "group3",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/spotiApp"}
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/spotiApp"}
         ]
     },
     {
@@ -63,7 +63,7 @@
         ],
         "fancybox": "group4",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/laravel-pymes"}
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/laravel-pymes"}
         ]
     },
     {
@@ -95,7 +95,7 @@
         ],
         "fancybox": "group6",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/nodejs-redSocial"}
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/nodejs-redSocial"}
         ]
     },
     {
@@ -112,9 +112,9 @@
         ],
         "fancybox": "group7",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/ark4News"},
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/ark4News"},
             {"nombre": "al sitio", "url": "https://ark4news.web.app"},
-            {"nombre": "News Api", "url": "https://newsapi.org/"}
+            {"nombre": "a News Api", "url": "https://newsapi.org/"}
         ]
     },
     {
@@ -130,7 +130,7 @@
         ],
         "fancybox":"group8",
         "enlaces": [
-            {"nombre": "GitHub", "url": "https://github.com/MarcosNoriega/chat-nodejs-socket"}
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/chat-nodejs-socket"}
         ]
     },
     {
@@ -147,6 +147,28 @@
         ],
         "fancybox": "group9",
         "enlaces": [
+        ]
+    },
+    {
+        "imagen": "assets/img/proyecto-ted1.png",
+        "titulo": "Sofware educativo para la materia tecnología educativa en la UTN",
+        "descripcion": "Este es un software educativo que presentamos para una materia de la universidad. Esto es solo un demo por lo cual el trabajo no está terminado y hay cosas en que mejorar.",
+        "tecnologias": [
+            "Motor grafico unity",
+            "C#",
+            "Angular"
+        ],
+        "imagenes": [
+            "assets/img/proyecto-ted2.png",
+            "assets/img/proyecto-ted3.png",
+            "assets/img/proyecto-ted4.png",
+            "assets/img/proyecto-ted5.png",
+            "assets/img/proyecto-ted7.png"
+        ], 
+        "fancybox": "group10",
+        "enlaces": [
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/TED"},
+            {"nombre": "al sitio", "url": "https://marcosnoriega.github.io/REDTED/"}
         ]
     }
 

@@ -24,7 +24,7 @@
                   <div class="card-footer" *ngIf="proyecto.enlaces.length !== 0">
                     <div class="row justify-content-center">
                       <div class="col-4" *ngFor="let enlace of proyecto.enlaces">
-                        <a [href]="enlace.url" target="_blank"><span class="badge badge-dark mx-auto">Ir a {{enlace.nombre}}</span></a>
+                        <a [href]="enlace.url" target="_blank"><span class="badge badge-dark mx-auto">Ir {{enlace.nombre}}</span></a>
                       </div>
                     </div>
                   </div>
