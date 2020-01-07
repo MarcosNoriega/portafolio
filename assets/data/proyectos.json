@@ -20,7 +20,7 @@
         "titulo": "Aplicación de Futbol",
         "descripcion": "La aplicación consiste en consultar los distintos resultados de competencias europeas, como también equipos. También es posibles consultar noticias de deportes argentinos. Esta aplicación está hecho con:",
         "tecnologias": [
-            "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
+            "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular 7",
             "Backend: Api de fútbol"
         ],
         "imagenes": [
@@ -37,7 +37,7 @@
         "titulo": "Aplicación de Música",
         "descripcion": "Una aplicación simple parecida a Spotify. Las tecnologías usadas en esta app son:",
         "tecnologias": [
-            "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular",
+            "FrontEnd: HTML, CSS, Javascript, Bootstrap, Angular 7",
             "Backend: Api de Spotify"
         ],
         "imagenes": [
@@ -156,7 +156,7 @@
         "tecnologias": [
             "Motor grafico unity",
             "C#",
-            "Angular"
+            "Angular 7"
         ],
         "imagenes": [
             "assets/img/proyecto-ted2.png",
@@ -169,6 +169,24 @@
         "enlaces": [
             {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/TED"},
             {"nombre": "al sitio", "url": "https://marcosnoriega.github.io/REDTED/"}
+        ]
+    },
+    {
+        "imagen": "assets/img/red-Social-Angular2.png",
+        "titulo": "Red Social con Angular 7",
+        "descripcion": "Este proyecto se trata de una red social de imágenes como Pinterest. La api rest de node.js que realice esta controlada por medio de token, los usuarios deberán autenticarse por token para acceder a la aplicación, para subir las imágenes estoy usando un servicio llamado cloudinary que nos permiten guardar las imágenes en los servidores de ellos.",
+        "tecnologias": [
+            "BackEnd: Node.js, MongoDB, Cloudinary",
+            "FrontEnd: Angular 7, Bootstrap"
+        ],
+        "imagenes": [
+            "assets/img/red-Social-Angular1.png",
+            "assets/img/red-Social-Angular3.png",
+            "assets/img/red-Social-Angular4.png"
+        ],
+        "fancybox": "group11",
+        "enlaces": [
+            {"nombre": "a GitHub", "url": "https://github.com/MarcosNoriega/redSocial-Angular"}
         ]
     }
 

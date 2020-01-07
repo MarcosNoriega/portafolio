@@ -133,6 +133,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_habilidades_habilidades_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/habilidades/habilidades.component */ "./src/app/components/habilidades/habilidades.component.ts");
 /* harmony import */ var _components_entretenimiento_entretenimiento_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/entretenimiento/entretenimiento.component */ "./src/app/components/entretenimiento/entretenimiento.component.ts");
 /* harmony import */ var _components_menu_menu_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/menu/menu.component */ "./src/app/components/menu/menu.component.ts");
+/* harmony import */ var _components_desmostraciones_desmostraciones_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/desmostraciones/desmostraciones.component */ "./src/app/components/desmostraciones/desmostraciones.component.ts");
+
 
 
 
@@ -159,7 +161,8 @@ var AppModule = /** @class */ (function () {
                 _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
                 _components_habilidades_habilidades_component__WEBPACK_IMPORTED_MODULE_10__["HabilidadesComponent"],
                 _components_entretenimiento_entretenimiento_component__WEBPACK_IMPORTED_MODULE_11__["EntretenimientoComponent"],
-                _components_menu_menu_component__WEBPACK_IMPORTED_MODULE_12__["MenuComponent"]
+                _components_menu_menu_component__WEBPACK_IMPORTED_MODULE_12__["MenuComponent"],
+                _components_desmostraciones_desmostraciones_component__WEBPACK_IMPORTED_MODULE_13__["DesmostracionesComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -195,7 +198,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <!--<a name=\"sobreMi\"></a>-->\n  <section class=\"wow fadeInUp\" id=\"sobreMi\">\n      <h3 class=\"title text-center\">Sobre mi</h3>\n      <p class=\"text text-center\">Soy un desarrollador de <strong>aplicaciones web</strong> y <strong>programas de escritorios</strong>. Me gusta estudiar de forma autodidacta ya que puedo ir a mi ritmo. Y ademas por que pienso que hoy en día esta habilidad es imprescindible para un programador, debido a las actualizaciones constantes de la tecnología.</p>\n      <p class=\"text text-center\">Me fascina mucho el mundo de la programación. Me gusta aprender cosas nueva y compartir mis conocimientos.</p>\n  </section>\n\n  <section>\n    <h3 class=\"title text-center\" id=\"proyectos\">Projectos</h3>\n            <!-- <p class=\"text\">Proyectos personales. Todos alojados en GitHub.</p> -->\n            <div class=\"row mt-3\" style=\"color: black\">\n              <div class=\"card-columns mb-4\">\n                <div class=\"card wow flipInY hvr-grow mt-3\" *ngFor=\"let proyecto of proyectos\">\n                  <a class=\"fancybox\" [rel]=\"proyecto.fancybox\" [href]=\"proyecto.imagen\"><img [src]=\"proyecto.imagen\" class=\"card-img-top\" alt=\"\"></a>\n                  <div class=\"card-body\">\n                    <h3 class=\"title\">{{proyecto.titulo}}</h3>\n                    <p class=\"text\">{{proyecto.descripcion}}</p>\n                    <ul>\n                      <li *ngFor=\"let tecnologia of proyecto.tecnologias\">{{tecnologia}}</li>\n                    </ul>\n                  </div>\n                  <a *ngFor=\"let imagen of proyecto.imagenes\" class=\"fancybox\" [href]=\"imagen\" [rel]=\"proyecto.fancybox\"></a>\n                  <div class=\"card-footer\" *ngIf=\"proyecto.enlaces.length !== 0\">\n                    <div class=\"row justify-content-center\">\n                      <div class=\"col-4\" *ngFor=\"let enlace of proyecto.enlaces\">\n                        <a [href]=\"enlace.url\" target=\"_blank\"><span class=\"badge badge-dark mx-auto\">Ir {{enlace.nombre}}</span></a>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n\n              </div>\n            </div>\n              \n  </section>\n</div>"
+module.exports = "<div class=\"container\">\n  <!--<a name=\"sobreMi\"></a>-->\n  <section class=\"wow fadeInUp\" id=\"sobreMi\">\n      <h3 class=\"title text-center\">Sobre mi</h3>\n      <p class=\"text text-center\">Soy un desarrollador de <strong>aplicaciones web</strong> y <strong>programas de escritorios</strong>. Me gusta estudiar de forma autodidacta ya que puedo ir a mi ritmo. Y ademas por que pienso que hoy en día esta habilidad es imprescindible para un programador, debido a las actualizaciones constantes de la tecnología.</p>\n      <p class=\"text text-center\">Me fascina mucho el mundo de la programación. Me gusta aprender cosas nueva y compartir mis conocimientos. Me gusta indagar en el código para sacar mi propias hipótesis con el objetivo de aprender.</p>\n      <p class=\"text text-center\">Esta pasión me llevo a desarrollar algunas aplicaciones web personales hechas con varios lenguajes como javascript, php, nodejs, java y Framework como angular, Laravel, express.js.</p>\n      <p class=\"text text-center\">Recuerden ser humilde significa aceptar que otros pueden enseñarte algo valioso para la vida y dejar atrás el orgullo de creer que lo sabes todo.</p>\n  </section>\n\n  <section>\n    <h3 class=\"title text-center\" id=\"proyectos\">Projectos</h3>\n            <!-- <p class=\"text\">Proyectos personales. Todos alojados en GitHub.</p> -->\n            <div class=\"row mt-3\" style=\"color: black\">\n              <div class=\"card-columns mb-4\">\n                <div class=\"card wow flipInY hvr-grow mt-3\" *ngFor=\"let proyecto of proyectos\">\n                  <a class=\"fancybox\" [rel]=\"proyecto.fancybox\" [href]=\"proyecto.imagen\"><img [src]=\"proyecto.imagen\" class=\"card-img-top\" alt=\"\"></a>\n                  <div class=\"card-body\">\n                    <h3 class=\"title\">{{proyecto.titulo}}</h3>\n                    <p class=\"text\">{{proyecto.descripcion}}</p>\n                    <ul>\n                      <li *ngFor=\"let tecnologia of proyecto.tecnologias\">{{tecnologia}}</li>\n                    </ul>\n                  </div>\n                  <a *ngFor=\"let imagen of proyecto.imagenes\" class=\"fancybox\" [href]=\"imagen\" [rel]=\"proyecto.fancybox\"></a>\n                  <div class=\"card-footer\" *ngIf=\"proyecto.enlaces.length !== 0\">\n                    <div class=\"row justify-content-center\">\n                      <div class=\"col-4\" *ngFor=\"let enlace of proyecto.enlaces\">\n                        <a [href]=\"enlace.url\" target=\"_blank\"><span class=\"badge badge-dark mx-auto\">Ir {{enlace.nombre}}</span></a>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n\n              </div>\n            </div>\n              \n  </section>\n</div>"
 
 /***/ }),
 
@@ -242,6 +245,50 @@ var ContenidoComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/components/desmostraciones/desmostraciones.component.html":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/desmostraciones/desmostraciones.component.html ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container mt-4 mb-4\">\n  <div class=\"row\">\n    <div class=\"col d-flex justify-content-center\">\n      <iframe width=\"747\" height=\"429\" src=\"https://www.youtube.com/embed/WcHOq0nU_7Q\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n  </div>\n  <div class=\"row mt-2\">\n    <div class=\"col d-flex justify-content-center\">\n        <iframe width=\"747\" height=\"429\" src=\"https://www.youtube.com/embed/-HypQovZHY8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/desmostraciones/desmostraciones.component.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/components/desmostraciones/desmostraciones.component.ts ***!
+  \*************************************************************************/
+/*! exports provided: DesmostracionesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesmostracionesComponent", function() { return DesmostracionesComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var DesmostracionesComponent = /** @class */ (function () {
+    function DesmostracionesComponent() {
+    }
+    DesmostracionesComponent.prototype.ngOnInit = function () {
+    };
+    DesmostracionesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-desmostraciones',
+            template: __webpack_require__(/*! ./desmostraciones.component.html */ "./src/app/components/desmostraciones/desmostraciones.component.html")
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], DesmostracionesComponent);
+    return DesmostracionesComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/components/entretenimiento/entretenimiento.component.css":
 /*!**************************************************************************!*\
   !*** ./src/app/components/entretenimiento/entretenimiento.component.css ***!
@@ -260,7 +307,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container mt-4\">\n  <p class=\"text text-center\">En mis tiempos libres me gusta aprender y desarrollar videojuegos y quería compartirles un juego simple que hice con los assets de unity.</p>\n  <p class=\"text text-center\">Este juego fue creado como dije con Unity usando el lenguaje de programación c#, además está subido a firebase.</p>\n  <p class=\"taxt text-center\">Puedes visitarlo haciendo click <a href=\"https://flappy-web.web.app/\">aquí</a></p>\n  <div class=\"row\">\n    <div class=\"col-12\">\n      <embed src=\"https://flappy-web.web.app/\" width=\"100%\" height=\"800px\"> \n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container mt-4\">\n  <p class=\"text text-center\">En mis tiempos libres me he convertido en un desarrollador indie de videojuegos y mis creaciones van a estar disponibles en la pagina de itch.io pueden hacer click <a target=\"_blank\" href=\"https://marcos-noriega.itch.io/\">aqui</a> para ver mi perfil o hacer click en un botón que esta más abajo.</p>\n  <p class=\"text text-center\">Quiero compartirles un juego simple que hice con los assets de unity aquí en mí portafolio.</p>\n  <p class=\"text text-center\">Este juego fue creado como dije con Unity usando el lenguaje de programación c#, además está subido a firebase.</p>\n  <p class=\"taxt text-center\">Puedes visitarlo haciendo click <a href=\"https://flappy-web.web.app/\">aquí</a></p>\n  <div class=\"row\">\n    <div class=\"col-12\">\n      <embed src=\"https://flappy-web.web.app/\" width=\"100%\" height=\"800px\"> \n    </div>\n\n    <a href=\"https://marcos-noriega.itch.io/\" target=\"_blank\" class=\"btn btn-primary mx-auto\" target=\"_blank\">Más Juegos</a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -316,7 +363,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer id=\"contacto\">\n    <h1 class=\"title text-center\">Contacto</h1>\n    <p class=\"text-center mt-3\"><i class=\"fas fa-mail-bulk\"></i> marcosnoriega964@gmail.com</p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-github\"></i> GitHub: <a href=\"https://github.com/MarcosNoriega\" target=\"_blank\">https://github.com/MarcosNoriega</a></p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-linkedin\"></i> Linkedin: <a href=\"https://www.linkedin.com/in/marcos-noriega-993a4517b/\" target=\"_blank\">https://www.linkedin.com/in/marcos-noriega-993a4517b/</a></p>\n    <p class=\"text-center mt-3\">&copy; copyright 2019 por Marcos Noriega</p>\n</footer>"
+module.exports = "<footer id=\"contacto\">\n    <h1 class=\"title text-center\">Contacto</h1>\n    <p class=\"text-center mt-3\"><i class=\"fas fa-mail-bulk\"></i> marcosnoriega964@gmail.com</p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-github\"></i> GitHub: <a href=\"https://github.com/MarcosNoriega\" target=\"_blank\">https://github.com/MarcosNoriega</a></p>\n    <p class=\"text-center mt-3\"><i class=\"fab fa-linkedin\"></i> Linkedin: <a href=\"https://www.linkedin.com/in/marcos-noriega-993a4517b/\" target=\"_blank\">https://www.linkedin.com/in/marcos-noriega-993a4517b/</a></p>\n    <p class=\"text-center mt-3\">&copy; copyright {{anio}} por Marcos Noriega</p>\n</footer>"
 
 /***/ }),
 
@@ -336,6 +383,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var FooterComponent = /** @class */ (function () {
     function FooterComponent() {
+        this.anio = new Date().getFullYear();
     }
     FooterComponent.prototype.ngOnInit = function () {
     };
@@ -493,7 +541,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-menu></app-menu>\n<app-header></app-header>\n<app-contenido></app-contenido>\n<div id=\"separador\">\n    <h1 class=\"text-center title-separador\" id=\"habilidades\">Habilidades</h1>\n</div>\n<app-habilidades></app-habilidades>\n<div id=\"separador2\">\n    <h1 class=\"text-center title-separador\">Entretenimiento</h1>\n</div>\n<app-entretenimiento></app-entretenimiento>\n<app-footer></app-footer>\n"
+module.exports = "<app-menu></app-menu>\n<app-header></app-header>\n<app-contenido></app-contenido>\n<div id=\"separador3\">\n    <h1 class=\"text-center title-separador\" id=\"demostraciones\">Demostraciones de proyectos</h1>\n</div>\n<app-desmostraciones></app-desmostraciones>\n<div id=\"separador\">\n    <h1 class=\"text-center title-separador\" id=\"habilidades\">Habilidades</h1>\n</div>\n<app-habilidades></app-habilidades>\n<div id=\"separador2\">\n    <h1 class=\"text-center title-separador\">Entretenimiento</h1>\n</div>\n<app-entretenimiento></app-entretenimiento>\n<app-footer></app-footer>\n"
 
 /***/ }),
 
@@ -549,7 +597,7 @@ module.exports = "* {\n    margin: 0%;\n    padding: 0%;\n}\n\n#sidebar {\n    p
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"sidebar\">\n  <div class=\"toggle-btn\">\n      <span>&#9776;</span>\n  </div>\n\n  <ul>\n      <a href=\"#sobreMi\"><li>Sobre mi</li></a>\n      <a href=\"#proyectos\"><li>Proyectos</li></a>\n      <a href=\"#habilidades\"><li>Habilidades</li></a>\n      <a href=\"#entretenimiento\"><li>Entretenimiento</li></a>\n      <a href=\"#contacto\"><li>Contacto</li></a>\n  </ul>\n</div>"
+module.exports = "<div id=\"sidebar\">\n  <div class=\"toggle-btn\">\n      <span>&#9776;</span>\n  </div>\n\n  <ul>\n      <a href=\"#sobreMi\"><li>Sobre mi</li></a>\n      <a href=\"#proyectos\"><li>Proyectos</li></a>\n      <a href=\"#demostraciones\"><li>Demostraciones de proyectos</li></a>\n      <a href=\"#habilidades\"><li>Habilidades</li></a>\n      <a href=\"#entretenimiento\"><li>Entretenimiento</li></a>\n      <a href=\"#contacto\"><li>Contacto</li></a>\n  </ul>\n</div>"
 
 /***/ }),
 

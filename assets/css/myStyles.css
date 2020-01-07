@@ -39,6 +39,16 @@ body{
     position: relative;
 }
 
+#separador3{
+    content: '';
+    background-image: url('../img/purple-690724_1280.jpg');
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
 #particles-js{
     content: '';
     background-image: url('../img/city-profile.jpg');
